@@ -38,7 +38,7 @@ export function Hero() {
                 Shivani Awasthi
               </h1>
               <h2 className="text-2xl md:text-3xl text-gray-600 mb-6">
-                Full-Stack Developer | React | Next.js | Node.js
+                Solution Engineer | Full-Stack Developer | AI-Integrated Products
               </h2>
             </motion.div>
 
@@ -48,7 +48,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg text-gray-600 max-w-xl"
             >
-              I build scalable, high-performance web applications with a strong focus on frontend quality.
+              I bridge clients and engineering — building AI-integrated web apps, running product demos, and translating business goals into shipped features.
             </motion.p>
 
             <motion.div

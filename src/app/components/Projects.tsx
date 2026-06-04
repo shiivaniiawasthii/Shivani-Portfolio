@@ -8,6 +8,22 @@ export function Projects() {
 
   const projects = [
     {
+      title: 'WorkHiveAI — AI-Enabled Team Productivity Platform',
+      description: 'AI-powered project management platform with Kanban boards, sprint planning, milestones, and an email-to-task automation pipeline that converts inbound emails into tasks using Claude API.',
+      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop',
+      tech: ['React', 'Node.js', 'PostgreSQL', 'Claude API', 'Redux Toolkit', 'Tailwind CSS'],
+      github: 'https://github.com/shiivaniiawasthii/WorkHive',
+      demo: 'https://team-task-navy.vercel.app/',
+    },
+    {
+      title: 'SyntropIQ-AI — AI Studio Website',
+      description: 'Production marketing website for an AI studio specialising in Conversational AI, Generative AI, and Agentic Workflow services. Built with Next.js 14 App Router and deployed on Hostinger.',
+      image: 'https://s0.wp.com/mshots/v1/https://syntropiq-ai.com/?w=800',
+      tech: ['Next.js 14', 'TypeScript', 'Tailwind CSS'],
+      github: null,
+      demo: 'https://syntropiq-ai.com/',
+    },
+    {
       title: 'PlantShop — E-commerce Platform (MERN Stack)',
       description: 'A full-featured e-commerce platform for plant sales with product management, shopping cart, and payment integration.',
       image: 'https://user-images.githubusercontent.com/102580513/214058298-d6b576ed-8618-4a8a-9bc1-80dc41b5d9aa.png',
@@ -85,6 +101,7 @@ export function Projects() {
                   </div>
 
                   <div className="flex gap-4">
+                    {project.github && (
                     <a
                       href={project.github}
                       className="flex items-center gap-2 text-gray-700 hover:text-gray-900 transition-colors"
@@ -92,6 +109,7 @@ export function Projects() {
                       <Github size={20} />
                       <span>Code</span>
                     </a>
+                    )}
                     {project.demo && (
                       <a
                         href={project.demo}
