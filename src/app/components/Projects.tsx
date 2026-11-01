@@ -8,6 +8,22 @@ export function Projects() {
 
   const projects = [
     {
+      title: 'Gym Manager (Messy2Easy) — Built with Claude Code',
+      description: "Replaced a real gym's Google Form, WhatsApp and paper tracking with one system for registration, ID checks, payments, renewals and attendance. I mapped the owner's workflow and directed Claude Code (CLAUDE.md / AGENTS.md) to build it, then tested and iterated until it ran reliably. Sends the owner a daily WhatsApp/email summary of dues and members about to drop off. Demo login (sample data): phone 7080176406 · password sample123",
+      image: 'https://s0.wp.com/mshots/v1/https://messy2easy.vercel.app/?w=800',
+      tech: ['Claude Code', 'React', 'TypeScript', 'Supabase', 'WhatsApp API', 'Vercel'],
+      github: 'https://github.com/shiivaniiawasthii/messy2easy',
+      demo: 'https://messy2easy.vercel.app/',
+    },
+    {
+      title: 'Support Doc RAG Assistant',
+      description: 'Upload a document and ask questions in plain English. Answers come only from the document and cite the source passage, so every answer can be verified. Provider-agnostic LLM layer: Gemini or OpenAI with one config change.',
+      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop',
+      tech: ['Python', 'FastAPI', 'FAISS', 'Gemini / OpenAI', 'Streamlit'],
+      github: 'https://github.com/shiivaniiawasthii/RAG-SUPPORT-chatbot',
+      demo: 'https://rag-support-chatbot-qcpoha2timjuirs84bko4n.streamlit.app/',
+    },
+    {
       title: 'WorkHiveAI — AI-Enabled Team Productivity Platform',
       description: 'AI-powered project management platform with Kanban boards, sprint planning, milestones, and an email-to-task automation pipeline that converts inbound emails into tasks using Claude API.',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop',
@@ -23,31 +39,6 @@ export function Projects() {
       github: null,
       demo: 'https://syntropiq-ai.com/',
     },
-    {
-      title: 'PlantShop — E-commerce Platform (MERN Stack)',
-      description: 'A full-featured e-commerce platform for plant sales with product management, shopping cart, and payment integration.',
-      image: 'https://user-images.githubusercontent.com/102580513/214058298-d6b576ed-8618-4a8a-9bc1-80dc41b5d9aa.png',
-      tech: ['React', 'Redux', 'Node.js', 'MongoDB', 'Material UI'],
-      github: 'https://github.com/shiivaniiawasthii/MERN-Ecommerce',
-      demo: 'https://proshop-cvsz.onrender.com/',
-    },
-    {
-      title: 'Enterprise Backend API System',
-      description: 'Scalable backend API system with robust authentication, data management, and integration capabilities.',
-      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop',
-      tech: ['Node.js', 'Express.js', 'PostgreSQL'],
-      github: 'https://github.com/shiivaniiawasthii/Nodejs_project_crud',
-      demo: null,
-    },
-    {
-      title: 'Real-Time Chat Application',
-      description: 'Interactive real-time chat application with instant messaging, user authentication, and modern UI.',
-      image: 'https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=800&h=600&fit=crop',
-      tech: ['Next.js', 'ShadCN UI', 'Clerk', 'Convex'],
-      github: 'https://github.com/shiivaniiawasthii/Real-time-chat-app-Next-JS/tree/master',
-      demo: null,
-    },
-    
   ];
 
   return (

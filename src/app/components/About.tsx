@@ -5,11 +5,11 @@ export function About() {
   const { ref, inView } = useInView();
 
   const highlights = [
-    '3+ years of experience building web applications',
-    'Frontend-focused full-stack developer',
-    'Comfortable owning features end-to-end',
-    'Passionate about clean UI, performance, and scalability',
-    'Strong focus on user experience and product thinking',
+    '3+ years taking software from first discovery call to reliable production use',
+    'Technical point of contact for 30+ client accounts, including 8+ enterprise implementations (Oracle)',
+    'Resolved 100+ production issues, 75–80% without engineering escalation',
+    'Build with AI daily: Claude Code, agent instruction files, prompt engineering, RAG',
+    'Agriculture background — I learn operations-heavy industries fast',
   ];
 
   return (
@@ -27,11 +27,11 @@ export function About() {
 
           <div className="bg-white rounded-3xl shadow-xl p-8 md:p-12">
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              Frontend-focused Full-Stack Engineer with 3 years of experience building scalable, 
-              high-performance web applications using React.js and Next.js. Strong expertise in 
-              Redux Toolkit, performance optimization, and modern state management. Experienced 
-              in AI integrations, cloud deployments, and collaborating cross-functionally to ship 
-              features that improve user experience and business efficiency.
+              Customer-facing engineer who gets software working inside real businesses. I sit with
+              customers, map how their work actually gets done, turn it into a working system, and
+              keep iterating until it runs without hand-holding. Today I do that with AI — directing
+              Claude Code to build and maintain production apps, and designing workflows that AI can
+              run reliably.
             </p>
 
             <div className="space-y-4">
@@ -50,8 +50,9 @@ export function About() {
             </div>
 
             <p className="text-lg text-gray-700 mt-8 leading-relaxed">
-              Based in Gurugram, India, I'm seeking opportunities at product-driven companies 
-              where I can contribute to meaningful projects and continue growing as a developer.
+              Based in Bengaluru, India, and available to join immediately. I'm looking for AI
+              deployment, agent operations and forward-deployed roles where I own customer
+              outcomes end to end.
             </p>
           </div>
         </motion.div>

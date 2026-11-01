@@ -7,47 +7,51 @@ export function Skills() {
 
   const skillCategories = [
     {
-      icon: Code,
-      title: 'Languages',
-      skills: ['JavaScript (ES6+)', 'TypeScript', 'HTML5', 'CSS3'],
+      icon: Cpu,
+      title: 'AI & Agents',
+      skills: [
+        'Claude Code',
+        'CLAUDE.md / AGENTS.md',
+        'Prompt Engineering',
+        'RAG',
+        'FAISS',
+        'Gemini / OpenAI APIs',
+        'Azure OpenAI',
+      ],
     },
     {
       icon: Layers,
-      title: 'Frontend',
+      title: 'Customer Deployment',
       skills: [
-        'React.js',
-        'Next.js',
-        'Redux Toolkit',
-        'React Hooks',
-        'Tailwind CSS',
-        'Material UI',
-        'ShadCN UI',
+        'Discovery Calls',
+        'Workflow Mapping',
+        'Go-Live Support',
+        'Live Demos',
+        'Onboarding Playbooks',
+        'Root Cause Analysis',
       ],
     },
     {
       icon: Server,
-      title: 'Backend',
+      title: 'Integrations & Automation',
       skills: [
-        'Node.js',
-        'Express.js',
         'REST APIs',
-        'JWT Authentication',
-        'RBAC',
+        'Webhooks',
+        'Email Automation (IMAP)',
+        'Cron Jobs',
+        'WhatsApp / Email Notifications',
+        'JSON / XML Validation',
       ],
     },
     {
-      icon: Cpu,
-      title: 'Databases',
-      skills: ['MongoDB', 'PostgreSQL', 'Mongoose'],
+      icon: Code,
+      title: 'Engineering',
+      skills: ['TypeScript', 'JavaScript', 'Node.js', 'Python (FastAPI)', 'React', 'Next.js'],
     },
     {
       icon: Cloud,
-      title: 'AI Tools (used)',
-      skills: [
-        'Claude',
-        'Azure OpenAI',
-        'Claude Code',
-      ],
+      title: 'Data & Cloud',
+      skills: ['PostgreSQL', 'Supabase', 'MongoDB', 'Prisma', 'AWS', 'Vercel'],
     },
     {
       icon: Wrench,
@@ -55,9 +59,9 @@ export function Skills() {
       skills: [
         'Git',
         'Postman',
-        'Figma',
         'Jira',
         'Asana',
+        'Slack',
         'Chrome DevTools',
         'CI/CD',
       ],
@@ -65,9 +69,9 @@ export function Skills() {
   ];
 
   const additionalSkills = [
-    'Client-facing: product demos, discovery calls, stakeholder communication',
-    'Requirements gathering: workflow diagrams, acceptance criteria, use cases',
-    'Performance: code splitting, lazy loading, bundle size reduction',
+    'Client-facing: discovery calls, live demos, working sessions with domain experts',
+    'Requirements gathering: workflow diagrams, implementation checklists, acceptance criteria',
+    'Debugging: isolating product bug vs. customer setup vs. configuration vs. third-party incident',
     'State management: Redux Toolkit, Context API',
     'Responsive design & cross-browser compatibility',
   ];

@@ -76,8 +76,8 @@ export function Contact() {
               Ready to Work Together?
             </h3>
             <p className="text-white/90 mb-6 text-lg">
-              I'm currently seeking opportunities at product-driven companies 
-              where I can contribute and grow as a developer.
+              I'm looking for AI deployment and agent ops roles in Bengaluru,
+              and I can join immediately.
             </p>
             <a
               href="mailto:shivani28f23@gmail.com"

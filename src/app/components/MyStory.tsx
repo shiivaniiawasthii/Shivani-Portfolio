@@ -86,8 +86,8 @@ export function MyStory() {
 
                   <div className="bg-white rounded-xl p-6 border-l-4 border-rose-400">
                     <p className="text-gray-700 italic">
-                      "My unconventional path taught me to think differently, adapt quickly, 
-                      and never stop learning. I bring that mindset to every project I work on."
+                      "My unconventional path taught me to learn new domains fast and to care about
+                      how real operations work — exactly what it takes to make AI run them."
                     </p>
                   </div>
                 </div>

@@ -32,7 +32,7 @@ export default function App() {
 
       <footer className="border-t border-gray-200 bg-white/50 backdrop-blur-sm">
         <div className="container mx-auto px-6 py-8 text-center text-gray-600">
-          <p>© 2024 Shivani Awasthi. Built with Next.js, Tailwind CSS & Motion.</p>
+          <p>© 2026 Shivani Awasthi. Built with React, Vite, Tailwind CSS & Motion.</p>
         </div>
       </footer>
     </div>

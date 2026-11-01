@@ -6,12 +6,12 @@ export function WhyHireMe() {
   const { ref, inView } = useInView();
 
   const reasons = [
-    '3+ years of professional experience',
-    'Strong frontend & full-stack skills',
-    'Product thinking & ownership mindset',
-    'Available to start immediately',
-    'Fast learner — if I don\'t know it, I can learn it',
-    'Proven ability to deliver complex features end-to-end',
+    '3+ years in customer-facing deployment and solutions engineering',
+    '8+ enterprise implementations owned from discovery to production',
+    'Power user of AI tooling — Claude Code, prompt engineering, RAG',
+    'Available to join immediately, full-time in Bengaluru',
+    'Fast learner of new domains — from agriculture to pharmacovigilance to gyms',
+    'Detail-focused debugger: 75–80% of issues fixed without escalation',
   ];
 
   return (
@@ -29,13 +29,13 @@ export function WhyHireMe() {
                 <BookOpen size={24} className="text-white" />
               </div>
               <h2 className="text-4xl text-gray-900">
-                Looking for a Developer?
+                Need AI Running in the Real World?
               </h2>
             </div>
 
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              I'm currently open to full-time opportunities where I can contribute to meaningful 
-              products, work with talented teams, and continue growing as a developer.
+              I'm open to AI deployment, agent operations and forward-deployed roles where I
+              work directly with customers and own getting AI to run their operations reliably.
             </p>
 
             <div className="space-y-4 mb-8">

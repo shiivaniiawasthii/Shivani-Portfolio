@@ -8,23 +8,23 @@ export function Ownership() {
   const ownershipAreas = [
     {
       icon: Lightbulb,
-      title: 'Product & User Flows',
-      description: 'Designed complete product architecture and user flows for Translator App, ensuring intuitive user experience.',
+      title: 'Make the Complex Simple',
+      description: 'I map how customer work really gets done — the emails, spreadsheets and workarounds — and turn it into one clean, reliable workflow.',
     },
     {
       icon: Users,
-      title: 'Leadership & Coordination',
-      description: 'Took ownership during key phases when leadership was unavailable, balancing development and team coordination.',
+      title: 'Trusted by Customers',
+      description: 'Primary technical contact for 30+ accounts, including enterprise teams like Oracle, across US, UK and India time zones.',
     },
     {
       icon: Target,
-      title: 'Demo & Walkthroughs',
-      description: 'Delivered comprehensive demos and walkthroughs to stakeholders, ensuring clear communication of features.',
+      title: 'Push Until It Runs on Its Own',
+      description: 'I set the quality bar and keep fixing — prompts, instructions, process or code — until the system works without hand-holding.',
     },
     {
       icon: TrendingUp,
-      title: 'Business-First Mindset',
-      description: 'Always keep business goals in mind, making technical decisions that align with product strategy.',
+      title: 'Own It End to End',
+      description: 'From the first discovery call to go-live and production support, and every fix becomes a playbook that makes the next deployment faster.',
     },
   ];
 
@@ -41,8 +41,8 @@ export function Ownership() {
             Ownership Beyond Code
           </h2>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            I believe great developers do more than just write code. They think about 
-            the product, coordinate with teams, and take ownership of outcomes.
+            Getting something to look good in a demo is easy. Getting it to run a real
+            business every day is the work I care about.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -74,28 +74,28 @@ export function Ownership() {
             className="mt-12 bg-white rounded-2xl shadow-lg p-8"
           >
             <h3 className="text-2xl mb-4 text-gray-900">
-              Real-World Example: Translator App
+              Real-World Example: Running a Gym with AI
             </h3>
             <div className="space-y-4 text-gray-700">
               <p>
-                When developing the Translator App, I didn't just code features – I owned the entire product experience:
+                My friend's gym ran on a Google Form, WhatsApp and memory. I owned the whole deployment:
               </p>
               <ul className="space-y-2 ml-6">
                 <li className="flex items-start gap-2">
                   <span className="text-rose-500 mt-1">•</span>
-                  <span>Designed user flows and wireframes to ensure intuitive navigation</span>
+                  <span>Sat with the owner to map how registrations, payments and renewals really happened</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-rose-500 mt-1">•</span>
-                  <span>Coordinated with team members and stakeholders during leadership transitions</span>
+                  <span>Directed Claude Code with clear instruction files to build the system, reviewing every change</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-rose-500 mt-1">•</span>
-                  <span>Conducted demos to gather feedback and iterate quickly</span>
+                  <span>Tested edge cases and fixed what broke until it ran reliably in daily use</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-rose-500 mt-1">•</span>
-                  <span>Made technical decisions aligned with business objectives</span>
+                  <span>Automated a daily WhatsApp summary so the owner sees dues and drop-offs without opening the app</span>
                 </li>
               </ul>
             </div>

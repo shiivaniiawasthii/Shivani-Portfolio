@@ -38,7 +38,7 @@ export function Hero() {
                 Shivani Awasthi
               </h1>
               <h2 className="text-2xl md:text-3xl text-gray-600 mb-6">
-                Solution Engineer | Full-Stack Developer | AI-Integrated Products
+                AI Deployment & Solutions Engineer | Agent Ops | Customer Onboarding
               </h2>
             </motion.div>
 
@@ -48,7 +48,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg text-gray-600 max-w-xl"
             >
-              I bridge clients and engineering — building AI-integrated web apps, running product demos, and translating business goals into shipped features.
+              I take messy real-world workflows — emails, forms, spreadsheets, manual follow-ups — and turn them into AI-powered systems that run on their own. Based in Bengaluru, available to join immediately.
             </motion.p>
 
             <motion.div
@@ -64,7 +64,7 @@ export function Hero() {
                 View Projects
               </a>
               <a
-  href="https://drive.google.com/file/d/1OX9oyVCYBAu32r4tU0yprvIEVrGvdyOv/view?usp=sharing"
+  href="/Shivani_Awasthi_Resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="px-8 py-3 bg-white text-gray-900 rounded-full hover:bg-gray-50 transition-all hover:scale-105 shadow-lg hover:shadow-xl border border-gray-200 flex items-center gap-2"
