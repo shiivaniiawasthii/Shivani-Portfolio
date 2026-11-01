@@ -18,12 +18,13 @@ export function Experience() {
         'Resolved 100+ production issues, 75–80% without escalation, by isolating platform bug vs. customer setup vs. configuration vs. third-party incident; turned each root cause into a reusable troubleshooting playbook',
         "Owned E2B(R2) XML schema mapping and field-level validation for Oracle's drug-safety reporting; traced delivery failures and rejected payloads to root cause",
         'Ran 20+ live demos and technical deep-dives that supported 12–13 client renewals; wrote the onboarding playbooks and API docs used by Support and Customer Success',
+        "Built WorkHiveAI, the team's internal project management tool (Kanban, sprint tracking, AI-powered email-to-task automation), used daily by 10+ team members and replacing Asana",
       ],
     },
     {
-      role: 'Software Engineer',
+      role: 'Junior Software Engineer',
       company: 'Procxl Private Limited (Carbonmint)',
-      period: 'Mar 2023 - Sept 2023',
+      period: 'Feb 2023 - Sept 2023',
       location: 'Hyderabad, India',
       description: 'Agri-climate tech startup — APIs, data and authentication for the platform.',
       achievements: [
@@ -32,10 +33,10 @@ export function Experience() {
       ],
     },
     {
-      role: 'Junior Web Developer',
+      role: 'Web Developer Intern',
       company: 'We Infinity Plus',
       period: 'Sept 2022 - Feb 2023',
-      location: 'Hyderabad, India',
+      location: 'Remote',
       description: 'Early-stage web team — backend routes, UI and testing.',
       achievements: [
         'Built RESTful API routes for new product features and a consistent UI with Material UI components and themes',

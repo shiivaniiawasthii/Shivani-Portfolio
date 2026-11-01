@@ -25,7 +25,7 @@ export function Projects() {
     },
     {
       title: 'WorkHiveAI — AI-Enabled Team Productivity Platform',
-      description: 'AI-powered project management platform with Kanban boards, sprint planning, milestones, and an email-to-task automation pipeline that converts inbound emails into tasks using Claude API.',
+      description: "Built at CognifAI as the team's internal project management tool — used daily by 10+ team members, replacing Asana. Kanban boards, sprint planning, milestones, and an email-to-task automation pipeline that converts inbound emails into tasks using Claude API.",
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop',
       tech: ['React', 'Node.js', 'PostgreSQL', 'Claude API', 'Redux Toolkit', 'Tailwind CSS'],
       github: 'https://github.com/shiivaniiawasthii/WorkHive',
