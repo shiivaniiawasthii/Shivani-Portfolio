@@ -86,7 +86,7 @@ export function WhyHireMe() {
               className="mt-8 text-center"
             >
               <a
-                href="mailto:shivani28f23@gmail.com"
+                href="mailto:awasthi28shivani@gmail.com"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-rose-500 to-blue-500 text-white rounded-full hover:from-rose-600 hover:to-blue-600 transition-all hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 <Mail size={20} />

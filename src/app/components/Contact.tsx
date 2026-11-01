@@ -9,8 +9,8 @@ export function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'shivani28f23@gmail.com',
-      href: 'mailto:shivani28f23@gmail.com',
+      value: 'awasthi28shivani@gmail.com',
+      href: 'mailto:awasthi28shivani@gmail.com',
     },
     {
       icon: Linkedin,
@@ -80,7 +80,7 @@ export function Contact() {
               and I can join immediately.
             </p>
             <a
-              href="mailto:shivani28f23@gmail.com"
+              href="mailto:awasthi28shivani@gmail.com"
               className="inline-flex items-center gap-2 px-8 py-4 bg-white text-gray-900 rounded-full hover:bg-gray-100 transition-all hover:scale-105 shadow-lg"
             >
               <Send size={20} />

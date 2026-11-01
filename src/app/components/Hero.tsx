@@ -19,7 +19,7 @@ export function Hero() {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/shiivaniiawasthii', label: 'GitHub' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/shivani-awasthi-51b18a284/', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:shivani28f23@gmail.com', label: 'Email' },
+    { icon: Mail, href: 'mailto:awasthi28shivani@gmail.com', label: 'Email' },
   ];
 
   return (
