@@ -6,8 +6,8 @@ export function About() {
 
   const highlights = [
     '3+ years taking software from first discovery call to reliable production use',
-    'Technical point of contact for 30+ client accounts, including 8+ enterprise implementations for a Fortune 500 pharma-tech client',
-    'Resolved 300+ production issues, ~90% without engineering escalation',
+    'Technical point of contact for 30+ client accounts, including 8+ enterprise implementations (Oracle)',
+    'Resolved 100+ production issues, 75–80% without engineering escalation',
     'Build with AI daily: Claude Code, agent instruction files, prompt engineering, RAG',
     'Agriculture background — I learn operations-heavy industries fast',
   ];
