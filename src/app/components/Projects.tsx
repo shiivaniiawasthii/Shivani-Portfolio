@@ -9,7 +9,7 @@ export function Projects() {
   const projects = [
     {
       title: 'Gym Manager (Messy2Easy) — Built with Claude Code',
-      description: "Replaced a real gym's Google Form, WhatsApp and paper tracking with one system for registration, ID checks, payments, renewals and attendance. I mapped the owner's workflow and directed Claude Code (CLAUDE.md / AGENTS.md) to build it, then tested and iterated until it ran reliably. Sends the owner a daily WhatsApp/email summary of dues and members about to drop off. Demo login (sample data): phone 7080176406 · password sample123",
+      description: "Replaced a real gym's Google Form, WhatsApp and manual Excel tracking with one system for 80 members: registration, ID checks, payments, renewals and attendance. I mapped the owner's workflow and directed Claude Code (CLAUDE.md / AGENTS.md) to build it, live in 10 days. New members wait in a pending queue until the owner verifies their Aadhaar. The owner no longer calculates profit/loss by hand and gets a daily WhatsApp/email summary of dues and members about to drop off. Demo login (sample data): phone 7080176406 · password sample123",
       image: 'https://s0.wp.com/mshots/v1/https://messy2easy.vercel.app/?w=800',
       tech: ['Claude Code', 'React', 'TypeScript', 'Supabase', 'WhatsApp API', 'Vercel'],
       github: 'https://github.com/shiivaniiawasthii/messy2easy',
@@ -25,7 +25,7 @@ export function Projects() {
     },
     {
       title: 'WorkHiveAI — AI-Enabled Team Productivity Platform',
-      description: "Built at CognifAI as the team's internal project management tool — used daily by 10+ team members, replacing Asana. Kanban boards, sprint planning, milestones, and an email-to-task automation pipeline that converts inbound emails into tasks using Claude API.",
+      description: "Built at CognifAI as the team's internal project management tool — used daily by 20 team members, replacing Asana. Kanban boards, sprint planning, milestones, and an email-to-task automation pipeline that converts inbound emails into tasks using Claude API.",
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop',
       tech: ['React', 'Node.js', 'PostgreSQL', 'Claude API', 'Redux Toolkit', 'Tailwind CSS'],
       github: 'https://github.com/shiivaniiawasthii/WorkHive',

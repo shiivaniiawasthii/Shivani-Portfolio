@@ -9,9 +9,9 @@ export function WhyHireMe() {
     '3+ years in customer-facing deployment and solutions engineering',
     '8+ enterprise implementations owned from discovery to production',
     'Power user of AI tooling — Claude Code, prompt engineering, RAG',
-    'Available to join immediately, full-time in Bengaluru',
+    'Available to join immediately, relocating to Bengaluru',
     'Fast learner of new domains — from agriculture to pharmacovigilance to gyms',
-    'Detail-focused debugger: 75–80% of issues fixed without escalation',
+    'Detail-focused debugger: ~90% of issues fixed without escalation',
   ];
 
   return (

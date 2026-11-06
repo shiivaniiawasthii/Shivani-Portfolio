@@ -14,7 +14,7 @@ export function Ownership() {
     {
       icon: Users,
       title: 'Trusted by Customers',
-      description: 'Primary technical contact for 30+ accounts, including enterprise teams like Oracle, across US, UK and India time zones.',
+      description: 'Primary technical contact for 30+ accounts, including a Fortune 500 pharma-tech enterprise, across US, UK and India time zones.',
     },
     {
       icon: Target,

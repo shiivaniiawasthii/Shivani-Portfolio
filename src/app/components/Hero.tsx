@@ -48,7 +48,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg text-gray-600 max-w-xl"
             >
-              I take messy real-world workflows — emails, forms, spreadsheets, manual follow-ups — and turn them into AI-powered systems that run on their own. Based in Bengaluru, available to join immediately.
+              I take messy real-world workflows — emails, forms, spreadsheets, manual follow-ups — and turn them into AI-powered systems that run on their own. Relocating to Bengaluru, available to join immediately.
             </motion.p>
 
             <motion.div
