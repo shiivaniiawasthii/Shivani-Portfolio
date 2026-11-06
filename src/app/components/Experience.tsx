@@ -19,7 +19,7 @@ export function Experience() {
         "Owned E2B(R2) XML schema mapping and field-level validation for drug-safety reporting; traced delivery failures and rejected payloads to root cause",
         'Designed the human-in-the-loop workflow for an AI document-translation product (medical and legal documents): defined where AI acts alone and where a reviewer must approve, plus user roles, AI confidence thresholds and audit logs; prototyped in Figma Make and Lovable and handed off to engineering',
         'Ran 20+ live demos and technical deep-dives that supported 12–13 client renewals; wrote the onboarding playbooks and API docs used by Support and Customer Success',
-        "Built WorkHiveAI, the team's internal project management tool (Kanban, sprint tracking, AI-powered email-to-task automation), used daily by 20 team members and replacing Asana",
+        "Built WorkHiveAI, the team's internal project management tool (Kanban, sprints, milestones): an IMAP worker turns email replies into task comments or new tasks, and an LLM (Llama 3.1 via Groq) creates tasks from plain-English descriptions; used daily by 20 team members, replacing Asana",
       ],
     },
     {

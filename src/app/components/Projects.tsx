@@ -25,9 +25,9 @@ export function Projects() {
     },
     {
       title: 'WorkHiveAI — AI-Enabled Team Productivity Platform',
-      description: "Built at CognifAI as the team's internal project management tool — used daily by 20 team members, replacing Asana. Kanban boards, sprint planning, milestones, and an email-to-task automation pipeline that converts inbound emails into tasks using Claude API.",
+      description: "Built at CognifAI as the team's internal project management tool — used daily by 20 team members, replacing Asana. Kanban boards, sprint planning and milestones. An IMAP worker turns email replies into task comments or new tasks, and an LLM (Llama 3.1 via Groq) creates tasks from plain-English descriptions, filling in title, priority, assignee and due date.",
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop',
-      tech: ['React', 'Node.js', 'PostgreSQL', 'Claude API', 'Redux Toolkit', 'Tailwind CSS'],
+      tech: ['Next.js', 'TypeScript', 'PostgreSQL', 'Prisma', 'IMAP', 'Groq (Llama 3.1)', 'Tailwind CSS'],
       github: 'https://github.com/shiivaniiawasthii/WorkHive',
       demo: 'https://team-task-navy.vercel.app/',
     },
